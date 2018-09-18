@@ -2,14 +2,19 @@
   "name": "renibarak",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types" : "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "author": "",
+  "author": "Eduardo Ruiz Macias <eduarbo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduarbo/renibarak.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "prettier": "^1.14.2",
