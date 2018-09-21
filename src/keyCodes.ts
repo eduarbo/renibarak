@@ -82,7 +82,7 @@ export const symbols = {
   OBRC: 'open_bracket',
   OBR: 'open_bracket',
   LBRC: 'open_bracket',
-  LBR : 'open_bracket',
+  LBR: 'open_bracket',
   CBRC: 'close_bracket',
   CBR: 'close_bracket',
   RBRC: 'close_bracket',
@@ -191,7 +191,7 @@ export const keypad = {
   KEYPAD_PERIOD: 'keypad_period',
   KEYPAD_EQUAL_SIGN: 'keypad_equal_sign',
   KEYPAD_COMMA: 'keypad_comma',
-}
+};
 
 // - category: Virtual Keys
 // - name: vk_none
